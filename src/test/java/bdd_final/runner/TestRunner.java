@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features/MainPageValidation.feature",
+        features = "classpath:features/CreateAccountValidation.feature",
         glue = "bdd_final.steps",
         dryRun = false
 )
